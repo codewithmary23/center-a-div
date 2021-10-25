@@ -1,0 +1,42 @@
+/* 1. opcija */
+.parent {
+  border: 3px solid green;
+  text-align: center;
+}
+
+.child {
+  border: 2px solid red;
+  width: 30%;
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 0;
+}
+
+/* 2. opcija */
+
+/* .parent {
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    border: 2px solid red;
+    width: 30%;
+} */
+
+/* 3. opcija */
+
+/* .parent {
+    border: 3px solid green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child {
+    border: 2px solid red;
+    width: 30%;
+} */
